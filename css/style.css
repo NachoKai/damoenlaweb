@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.23rem;
+  font-size: 1.5rem;
   padding: 1rem 0 1rem 0;
   color: #060a24
 }
@@ -319,7 +319,7 @@ nav {
   display: none;
   position: absolute;
   left: 0;
-  top: 1.23rem;
+  top: 0.8rem;
   width: 100%;
   margin-top: 1.73rem;
   padding: 1rem 0.3rem;
@@ -462,6 +462,7 @@ nav {
 }
 
 .donde {
+  padding: 1rem 0 1rem 0;
   position: relative
 }
 

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NachoKai/damoenlaweb/issues"
   },
-  "homepage": "https://github.com/NachoKai/damoenlaweb#readme"
+  "homepage": "https://github.com/NachoKai/damoenlaweb#readme",
+  "dependencies": {
+    "http-server": "^0.12.0"
+  }
 }
