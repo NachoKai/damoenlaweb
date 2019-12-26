@@ -285,7 +285,7 @@ nav {
 
 @media screen and (min-width: 1200px) {
   .nav-container {
-    padding: 1.1rem 0
+    padding: 0.3rem 0
   }
 
   .nav-container .logo {
@@ -402,7 +402,7 @@ nav {
 
 .proyectos {
   color: #fff;
-  padding: 1rem 0 1rem 0;
+  padding: 1.7rem 0 1rem 0;
   background: linear-gradient(to right, green 0%, #00f3bb 100%);
 }
 
