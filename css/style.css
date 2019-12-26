@@ -27,6 +27,11 @@ body {
   color: #00f3bb;
 }
 
+.proyectos {
+display: flex;
+flex-direction: column;
+}
+
 h1 {
   font-size: 2.23rem;
   line-height: 3rem;
