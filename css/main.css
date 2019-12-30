@@ -288,7 +288,7 @@ nav {
 
 .header-container {
   position: relative;
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 .header-container p {
@@ -759,6 +759,10 @@ nav {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-display: fallback;
 }
 
 ::-webkit-scrollbar {
