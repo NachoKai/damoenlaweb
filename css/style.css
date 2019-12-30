@@ -38,6 +38,14 @@ h1 {
   margin: 3rem 0 1rem 0
 }
 
+.img-damo {
+  max-width: 800px;
+}
+
+.donde-img {
+  text-align: center;
+}
+
 .redes {
   display: flex;
   flex-wrap: wrap;
@@ -60,7 +68,7 @@ h1 {
   padding: 5px;
 }
 
-.donde-txt{
+.donde-txt {
   padding: 1.5rem;
 }
 
