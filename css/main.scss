@@ -75,7 +75,8 @@ a:hover {
     background: $f-green;
     color: $text-color;
     -webkit-transition: .35s !important;
-    transition: .35s !important
+    transition: .35s !important;
+    border: 0px;
 }
 
 .btn:hover {

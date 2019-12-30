@@ -71,6 +71,7 @@ a:hover {
   color: #060a24;
   -webkit-transition: .35s !important;
   transition: .35s !important;
+  border: 0px;
 }
 
 .btn:hover {
