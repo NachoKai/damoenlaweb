@@ -332,28 +332,28 @@ nav {
 
 .temas-container {
     width: 100%;
-    margin-top: 1rem
-}
-
-.temas-container h2 {
-    -ms-flex-item-align: start;
-    align-self: flex-start
-}
-
-.temas-container img {
-    max-width: 6.23rem;
-    margin-bottom: .1rem
-}
-
-.temas-container .img-container {
     margin-top: 1rem;
-    min-height: 320px
-}
 
-.temas-container .tema {
-    margin-bottom: 1rem;
-    -webkit-transition: .4s ease;
-    transition: .4s ease
+    h2 {
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+    }
+
+    img {
+        max-width: 6.23rem;
+        margin-bottom: .1rem;
+    }
+
+    .img-container {
+        margin-top: 1rem;
+        min-height: 320px;
+    }
+
+    .tema {
+        margin-bottom: 1rem;
+        -webkit-transition: .4s ease;
+        transition: .4s ease;
+    }
 }
 
 .novedades {
@@ -379,34 +379,34 @@ nav {
     position: relative;
     padding: 1rem 0;
     z-index: 2;
-    background-color: $white
-}
+    background-color: $white;
 
-.footer a {
-    color: $text-color;
-    -webkit-transition: .2s;
-    transition: .2s
-}
+    a {
+        color: $text-color;
+        -webkit-transition: .2s;
+        transition: .2s;
+    }
 
-.footer p {
-    margin-bottom: 1rem;
-    font-size: .9rem;
-    text-align: center
-}
+    p {
+        margin-bottom: 1rem;
+        font-size: .9rem;
+        text-align: center;
+    }
 
-.footer .rrss {
-    width: 100%;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-around
-}
+    .rrss {
+        width: 100%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-around;
 
-.footer .rrss a {
-    padding: 1rem
+        a {
+            padding: 1rem;
+        }
+    }
 }
 
 @media screen and (min-width:600px) {
