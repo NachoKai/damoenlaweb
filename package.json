@@ -1,7 +1,7 @@
 {
   "name": "damoenlaweb",
   "version": "1.0.0",
-  "description": "Practicando con una landing page para Damo en la Web.\r ## [Live Demo](https://nachokai.github.io/damoenlaweb/)",
+  "description": "Landing Page para Damo en la Web.\r ## [Live Demo](https://nachokai.github.io/damoenlaweb/)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
