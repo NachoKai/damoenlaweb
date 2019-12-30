@@ -489,7 +489,7 @@ nav {
     flex-direction: row;
     -webkit-box-align: start;
     -ms-flex-align: start;
-    align-items: flex-start;
+    align-items: center;
   }
   .temas-container .img-container .tema {
     padding: 2.3rem;
