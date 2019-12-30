@@ -38,6 +38,32 @@ h1 {
   margin: 3rem 0 1rem 0
 }
 
+.redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.twitter {
+  display: block;
+  padding: 5px;
+}
+
+.instagram {
+  display: block;
+  padding: 5px;
+}
+
+.facebook {
+  display: block;
+  padding: 5px;
+}
+
+.donde-txt{
+  padding: 5px;
+}
+
 .wave {
   background: linear-gradient(to right, green 0, #00f3bb 100%)
 }
