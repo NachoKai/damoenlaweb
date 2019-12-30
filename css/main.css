@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -13,26 +14,25 @@ body {
   color: #060a24;
 }
 
-h1,
-h2,
-h3 {
+h1 {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
-}
-
-h1 {
   font-size: 2.23rem;
   line-height: 3rem;
   margin: 3rem 0 1rem 0;
 }
 
 h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
   font-size: 1.5rem;
   padding: 1rem 0 1rem 0;
   color: #060a24;
 }
 
 h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
   font-size: 1.3rem;
   font-weight: 600;
   text-align: center;
@@ -51,10 +51,6 @@ a:hover {
   text-decoration: underline;
 }
 
-img {
-  width: 100%;
-}
-
 .btn {
   display: inline-block;
   cursor: pointer;
@@ -66,21 +62,21 @@ img {
   text-align: center;
   font-weight: 500;
   font-size: 1rem;
-  background: #00f3bb;
+  background: #00ffc3;
   color: #060a24;
   -webkit-transition: .35s !important;
   transition: .35s !important;
 }
 
 .btn:hover {
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, #0000fe), to(#00f0b8));
-  background: linear-gradient(to right, #0000fe 0, #00f0b8 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #0000fe), to(#009c78));
+  background: linear-gradient(to right, #0000fe 0, #009c78 100%);
   color: #ffffff;
   -webkit-transition: .35s !important;
   transition: .35s !important;
 }
 
-.link-hover {
+.btn .link-hover {
   -webkit-transition: .35s ease;
   transition: .35s ease;
 }
@@ -169,7 +165,7 @@ nav {
   height: 4px;
   margin: .3rem 0;
   border-radius: 5px;
-  background-color: #000;
+  background-color: #000000;
   content: "";
   cursor: pointer;
   -webkit-transition: .25s ease-in-out;
@@ -205,7 +201,7 @@ nav {
 }
 
 .link {
-  color: #00f3bb;
+  color: #00ffc3;
 }
 
 .proyectos {
@@ -254,12 +250,12 @@ nav {
 }
 
 .donde-txt {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .wave {
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, green), to(#00f3bb));
-  background: linear-gradient(to right, green 0, #00f3bb 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #00b48a), to(#00ffc3));
+  background: linear-gradient(to right, #00b48a 0, #00ffc3 100%);
 }
 
 .menu-items {
@@ -271,7 +267,7 @@ nav {
   margin-top: 1.73rem;
   padding: 1rem .3rem;
   color: #ffffff;
-  background-color: #00f0b8;
+  background-color: #009c78;
 }
 
 .menu-items li {
@@ -292,39 +288,39 @@ nav {
   margin-bottom: 2.23rem;
 }
 
-.videos {
+.header-container .videos {
   padding: 1rem 0 1rem 0;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, green), to(#00f3bb));
-  background: linear-gradient(to right, green 0, #00f3bb 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #00b48a), to(#00ffc3));
+  background: linear-gradient(to right, #00b48a 0, #00ffc3 100%);
 }
 
 .novedades {
   margin: 1rem 0;
   padding: 3rem 0 1rem 0;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, green), to(#00f3bb));
-  background: linear-gradient(to right, green 0, #00f3bb 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #00b48a), to(#00ffc3));
+  background: linear-gradient(to right, #00b48a 0, #00ffc3 100%);
 }
 
 .proyectos {
   color: #ffffff;
   padding: 1.7rem 0 1rem 0;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, green), to(#00f3bb));
-  background: linear-gradient(to right, green 0, #00f3bb 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #00b48a), to(#00ffc3));
+  background: linear-gradient(to right, #00b48a 0, #00ffc3 100%);
+}
+
+.proyectos .img-container {
+  width: 100%;
+}
+
+.videos {
+  width: 100%;
+  height: 14.3rem;
+  border: none;
 }
 
 .videos h2 {
   color: #ffffff;
   text-align: left;
-}
-
-.videos .iframe-container {
-  width: 100%;
-}
-
-.videos .iframe-container iframe {
-  width: 100%;
-  height: 14.3rem;
-  border: none;
 }
 
 .donde {
@@ -335,10 +331,6 @@ nav {
 .donde img {
   margin-top: -1rem;
   z-index: 2;
-}
-
-.proyectos .img-container {
-  width: 100%;
 }
 
 .temas-container {
@@ -371,8 +363,8 @@ nav {
   margin: 0 0;
   margin-bottom: 0;
   padding: 1rem 0 1rem 0;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, green), to(#00f3bb));
-  background: linear-gradient(to right, green 0, #00f3bb 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #00b48a), to(#00ffc3));
+  background: linear-gradient(to right, #00b48a 0, #00ffc3 100%);
 }
 
 .novedades h2 {
@@ -512,7 +504,7 @@ nav {
   .videos h2 {
     margin-top: 2rem;
   }
-  .videos .iframe-container {
+  .videos {
     margin-top: 2rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -522,14 +514,14 @@ nav {
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
-  .videos .iframe-container iframe {
+  .videos {
     max-width: 50%;
     margin-bottom: 4.3rem;
   }
-  .videos .iframe-container iframe:nth-child(odd) {
+  .videos :nth-child(odd) {
     padding-right: 2.23rem;
   }
-  .videos .iframe-container iframe:nth-child(even) {
+  .videos :nth-child(even) {
     padding-left: 2.23rem;
   }
   .donde {
@@ -767,10 +759,11 @@ nav {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00f3bb;
+  background: #00ffc3;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: green;
+  cursor: pointer;
+  background: #00b48a;
 }
 /*# sourceMappingURL=main.css.map */

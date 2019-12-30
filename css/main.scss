@@ -3,7 +3,7 @@
 $text-color: #060a24;
 $white: #ffffff;
 $black: #000000;
-$blue: $black0fe;
+$blue: #0000fe;
 $f-green: #00ffc3;
 $s-green: #009c78;
 $t-green: #00b48a;
@@ -15,6 +15,7 @@ $t-green: #00b48a;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 
 body {
     font-family: "IBM Plex Mono", monospace;
