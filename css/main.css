@@ -761,10 +761,6 @@ nav {
   }
 }
 
-@font-face {
-  font-display: fallback;
-}
-
 ::-webkit-scrollbar {
   width: 14px;
 }
