@@ -156,7 +156,12 @@ img {
 }
 
 .container-sm {
-  margin: 0 1rem
+  margin: 0
+}
+
+
+.container-lg {
+  margin: 0
 }
 
 @media screen and (min-width:1200px) {
@@ -164,10 +169,6 @@ img {
     max-width: 1040px;
     margin: auto
   }
-}
-
-.container-lg {
-  margin: 0 1rem
 }
 
 @media screen and (min-width:1200px) {
@@ -203,14 +204,14 @@ nav {
 }
 
 .nav-container {
-  padding: .3rem 0;
+  padding: .3rem 10px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-around
+  justify-content: space-between
 }
 
 .nav-container .logo {
@@ -681,7 +682,7 @@ nav {
   flex-direction: row;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between
+  justify-content: space-around
 }
 
 .footer .rrss a {
