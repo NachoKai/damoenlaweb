@@ -25,3 +25,5 @@ function labnolIframe() {
     iframe.setAttribute("allowfullscreen", "1");
     this.parentNode.replaceChild(iframe, this);
 }
+
+document.getElementById("current-year").innerHTML = new Date().getFullYear();
