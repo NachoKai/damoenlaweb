@@ -269,13 +269,6 @@ nav {
   padding: 10px;
 }
 
-.fb-page,
-.fb-page span,
-.fb-page span iframe[style] {
-  width: 100% !important;
-  min-width: 0px !important;
-}
-
 .donde-txt {
   padding: 1rem;
 }
