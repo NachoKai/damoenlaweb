@@ -421,9 +421,9 @@ nav {
     }
 }
 
-@media screen and (min-width:600px) {
+@media screen and (max-width:600px) {
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 3rem
     }
 
@@ -900,11 +900,6 @@ body {
 
 main {
     display: block;
-}
-
-h1 {
-    font-size: 3em;
-    margin: 0.67em 0;
 }
 
 hr {
