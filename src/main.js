@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded",
     });
 
 function labnolThumb(id) {
-    let thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+    let thumb = '<img alt="Youtube Thumbnail" src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
         play = '<div class="play"></div>';
     return thumb.replace("ID", id) + play;
 }

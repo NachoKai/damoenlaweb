@@ -9,6 +9,7 @@
       -ms-user-select: none;
           user-select: none;
   outline: 0;
+  font-display: swap;
 }
 
 body {
@@ -242,27 +243,7 @@ nav {
 }
 
 .twitter {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  display: block;
-  padding: 10px;
-}
-
-.instagram {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  display: block;
-  padding: 10px;
-}
-
-#instagram-embed-0 {
-  min-width: 0px !important;
-}
-
-.facebook {
-  max-width: 400px;
+  max-width: 700px;
   width: 100%;
   height: auto;
   display: block;
