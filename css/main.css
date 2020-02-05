@@ -995,4 +995,27 @@ template {
 [hidden] {
   display: none;
 }
+
+.icono {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #00E5AF;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.icono img {
+  width: 64px !important;
+  height: 64px !important;
+}
 /*# sourceMappingURL=main.css.map */
